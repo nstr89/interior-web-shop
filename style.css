@@ -1,3 +1,146 @@
-.container{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
     margin: 0 auto;
+    width: 1366px;
+}
+
+.slider {
+    position: relative;
+    height: 800px;
+    background-image: url(img/home-page/b1/slider.jpg);
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.logo {}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    float: left;
+    list-style-type: none;
+}
+
+.menu-link {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+    padding-bottom: 3px;
+}
+
+.slider-content {
+    margin-top: 283px;
+}
+
+.slider-content-tag {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #43a047;
+}
+
+.slider-content-name {
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.slider-content-details {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+    width: 458px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+    width: 212px;
+    height: 45px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
+    border-radius: 22.5px;
+}
+
+.button:hover {
+    background-color: #6c6c6c;
+}
+
+.pagination {
+    position: absolute;
+    bottom: 19px;
+    width: 1170px;
+    text-align: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #c7c7c7;
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin: 0;
+}
+
+.circle:hover {
+    background-color: #212121;
 }
