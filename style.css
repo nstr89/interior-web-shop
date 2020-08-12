@@ -554,3 +554,58 @@ body {
 .terms:hover {
     color: #212121;
 }
+
+
+/*styles fo contacts.html*/
+
+.contact-us-name {
+    margin-top: 171px;
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 100;
+    color: #212121;
+    width: 1170px;
+}
+
+.contacts-blocks {
+    float: left;
+    margin-top: 171px;
+}
+
+.contact-block {
+    display: inline-block;
+    text-decoration: none;
+    width: 370px;
+    height: 322px;
+    float: left;
+    text-align: center;
+    outline: 1px solid gray;
+    margin-right: 20px;
+    padding-top: 48px;
+    margin-bottom: 120px;
+}
+
+.location-name {
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+    margin-top: 34px;
+    margin-bottom: 23px;
+}
+
+.ph-em-ad {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #6c6c6c;
+}
+
+.numb-em {
+    color: #212121;
+}
+
+.addres {
+    font-weight: 300;
+}
